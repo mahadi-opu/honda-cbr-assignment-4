@@ -1,0 +1,36 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    background: #264653;
+}
+.btn-purchase{
+    background: #E76F51;
+}
+.text-burnt{
+    color:#E76F51;
+}
+.border-burnt{
+    border: 1px solid #E76F51;
+}
+.border-burnt:hover{
+    background: #E76F51;
+    color:#fff;
+}
+.primary-color{
+    color:#23A6F0;
+}
+.card-thumbnail{
+    overflow: hidden;
+    cursor: pointer;
+}
+.card-thumbnail img{
+    width: 100%;
+    transition: all 1s ease-in-out;
+}
+.card-thumbnail img:hover{
+    transform: scale(1.2);
+}
+footer{
+    background-color: #0B0D17;
+}
